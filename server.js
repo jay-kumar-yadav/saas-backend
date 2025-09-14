@@ -11,9 +11,10 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://saas-frontend-two-pi.vercel.app'],
   credentials: true
 }));
+
 
 app.use(express.json());
 
